@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="css.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1 class="titulo">Bienvenido a la aplicacion</h1>
+        <h2 class="mensaje-de-seguridad">RECUERDA: <br> Nunca reveles la llave de encriptacion!</h2>
+        <div class="input-text-desencriptado">
+            <h1 class="titulo-input">Ingrese un texto desencriptado</h2>
+            <textarea name="ingreso-texto" id="ingreso-texto" cols="30" rows="5" class="ingreso-texto" 
+            placeholder="Ingresa un texto para Encriptar"></textarea>
+            <br>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="Encriptar()">Encriptar</button>
+            </div>
+        </div>
+        <div class="mensaje">
+            <br>
+            <br>
+            <textarea name="mensaje-versionado" id="mensaje-versionado" cols="30" rows="5" class="mensaje-versionado"></textarea>
+            <button class="btn-copiar" onclick="copiar()">Copiar</button>
+        </div>
+        <div class="input-text-encriptado">
+            <h1 class="titulo-input">Ingrese un texto encriptado</h2>
+            <textarea name="ingreso-texto" id="ingreso-texto-encriptado" cols="30" rows="5" class="ingreso-texto"
+            placeholder="Ingresa un texto para desencriptar"></textarea>
+            <br>
+            <div class="botones">
+                <button class="btn-desecriptar" onclick=desencriptar()>Desencriptar</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
