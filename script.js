@@ -1,5 +1,5 @@
 //Funcion para enctiptar
-function Encriptar(){holaa hola hola hola
+function Encriptar(){
     //almacenamos el valor de texto ingresado por el usuario
     //trabajamos con variables de entorno local
     let texto_para_encriptar=document.getElementById('ingreso-texto').value;
